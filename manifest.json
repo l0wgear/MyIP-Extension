@@ -2,8 +2,10 @@
     "name": "MyIP",
     "description": "Shows user IP and country",
     "version": "0.1",
-    "manifest_version": "3",
+    "manifest_version": 3,
     "permissions": ["storage"],
+    "host_permissions": ["https://api.myip.com/"],
+
     "action": {
         "default_popup": "popup.html",
         "default_icon": {
